@@ -1,0 +1,37 @@
+@import "../../styles.scss";
+
+@media(max-width: $Mobile){
+  .container {
+    padding-top: 4em;
+    height: 15em;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: $White;
+  }
+  .body-text {
+    font-size: $Fontsize;
+  }
+  .title {
+    font-weight: $bold;
+  }
+  
+}
+
+@media (min-width: $Desktop) {
+  .container {
+    width: 30em;
+    text-align: center;
+    color: $White;
+  }
+  .title {
+    font-weight: $extraBold;
+    font-size: 50px;
+    text-align: left;
+  }
+  .body-text {
+    text-align: left;
+  }
+}

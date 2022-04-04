@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import TextInfo from './components/Textinfo'
+import TrialBtn from './components/TrialBtn';
+import Form from './components/Form'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <div className="cover">
+      <TextInfo />
+
+      <div className='right-content'>
+        <TrialBtn />
+        <Form />
+      </div>
+      {/* <footer>
+        <p class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+          Coded by <a href="#">Your Name Here</a>.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </footer> */}
     </div>
   );
 }

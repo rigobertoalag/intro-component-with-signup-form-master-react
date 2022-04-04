@@ -1,0 +1,80 @@
+//Screen sizes
+$Mobile: 425px;
+$Desktop: 1440px;
+
+//Colors
+//### Primary
+
+$Red: hsl(0, 100%, 74%);
+$Green: hsl(154, 59%, 51%);
+$White: white;
+
+//### Accent
+
+$Blue: hsl(248, 32%, 49%);
+
+//### Neutral
+
+$DarkBlue: hsl(249, 10%, 26%);
+$GrayishBlue: hsl(246, 25%, 77%);
+
+$shadow: rgba(0, 0, 0, 0.2);
+$shadowGreen: rgb(2, 179, 40);
+
+//Font
+$Fontsize: 16px;
+
+$light: 400;
+$medium: 500;
+$bold: 600;
+$extraBold: 700;
+
+//
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+.bold {
+  font-weight: $bold;
+}
+.cover {
+  height: 100vh;
+  width: 100%;
+  background-image: url(./images/bg-intro-mobile.png);
+  background-color: $Red;
+  background-repeat: repeat-y;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: $Mobile) {
+  .cover {
+    height: 130vh;
+    width: 100%;
+    background-image: url(./images/bg-intro-mobile.png);
+    background-color: $Red;
+    background-repeat: repeat-y;
+  }
+}
+
+@media (min-width: $Desktop) {
+  .cover {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/bg-intro-mobile.png);
+    background-color: $Red;
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .right-content {
+    display: flex;
+    flex-direction: column;
+    width: 40em;
+    height: 45em;
+  }
+}

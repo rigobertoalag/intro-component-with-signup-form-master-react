@@ -1,0 +1,102 @@
+@import '../../styles.scss';
+
+.container-form{
+    width: 90%;
+    height: 80%;
+    background-color: $White;
+    position: relative;
+    margin: 1.5em auto ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0.5em 1px $shadow;
+}
+.termns{
+    width: 60%;
+    font-size: x-small;
+    text-align: center;
+    color: $GrayishBlue;
+    margin-bottom: 3em;
+}
+.t-caption{
+    color: $Red;
+    font-weight: $bold;
+}
+
+.container-form-inputs{
+    display: flex;
+    width: 85%;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1.5em;
+}
+.form-input{
+    padding: 1em;
+    border-radius: 0.5em;
+    border: solid 1px rgba(202, 202, 202, 0.500);
+    font-family: 'Poppins';
+    font-weight: $bold;
+    margin-bottom: 1em;
+}
+.send-btn{
+    background-color: $Green;
+    padding: 1em;
+    color: $White;
+    box-shadow: 0 5px 0px $shadowGreen;
+    border-radius: 0.5em;
+    text-align: center;
+    margin-bottom: 1em;
+    font-weight: $bold;
+    border: none;
+}
+
+.error-container{
+    position: relative;
+    top: -2.5em;
+    right: 0;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;    
+    padding: 0;
+    width: 70%;
+}
+.onError{
+    position: relative;
+    right: 0;
+    margin-left: auto;
+    margin-top: 1em;
+    color: $Red;
+    font-size: smaller;
+    font-style: italic;
+}
+.error-icon{
+    height: 1.6em;
+    width: 1.6em;
+    position: relative;
+    right: 10px;
+    margin-left: auto;
+    background-image: url(../../images/icon-error.svg) ;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: $Desktop) {
+    .container-form{
+        width: 90%;
+        height: 40em;
+    }
+    .container-form-inputs{
+        width: 90%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .termns{
+        width: 80%;
+        font-size: small;
+    }
+    .form-input{
+        padding: 1.5em;
+    }
+}
