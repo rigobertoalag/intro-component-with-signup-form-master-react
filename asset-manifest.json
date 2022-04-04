@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/intro-component-with-signup-form-master-react/static/css/main.f03a64db.css",
+    "main.js": "/intro-component-with-signup-form-master-react/static/js/main.6534238f.js",
+    "static/js/787.6701b9df.chunk.js": "/intro-component-with-signup-form-master-react/static/js/787.6701b9df.chunk.js",
+    "static/media/bg-intro-mobile.png": "/intro-component-with-signup-form-master-react/static/media/bg-intro-mobile.02ce398270ece1769ebc.png",
+    "index.html": "/intro-component-with-signup-form-master-react/index.html",
+    "static/media/icon-error.svg": "/intro-component-with-signup-form-master-react/static/media/icon-error.b72f792e9c900128f5c8.svg",
+    "main.f03a64db.css.map": "/intro-component-with-signup-form-master-react/static/css/main.f03a64db.css.map",
+    "main.6534238f.js.map": "/intro-component-with-signup-form-master-react/static/js/main.6534238f.js.map",
+    "787.6701b9df.chunk.js.map": "/intro-component-with-signup-form-master-react/static/js/787.6701b9df.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f03a64db.css",
+    "static/js/main.6534238f.js"
+  ]
+}
